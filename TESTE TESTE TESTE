@@ -74,9 +74,9 @@
   <header class="container hero">
     <div>
       <span class="badge">Lançamento</span>
-      <h1>{{Promessa principal forte do seu produto}}</h1>
+      <h1>Nunca mais fique sem ideia de post</h1>
       <p class="lead">
-        {{Explique em 1 frase quem é a pessoa e o resultado prático que ela vai ter.}}
+        Para criadores e negócios que querem postar com constância, ganhar engajamento e atrair clientes sem perder tempo pensando no que postar.
       </p>
       <div style="display:flex; gap:12px; flex-wrap:wrap;">
         <a class="cta" href="{{LINK_DO_CHECKOUT}}" target="_blank">Quero começar agora</a>
