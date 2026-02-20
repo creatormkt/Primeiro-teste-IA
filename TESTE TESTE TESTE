@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{Nome do Produto}} — Transforme seus Resultados</title>
+  <style>
+    :root {
+      --bg: #0b0b0f;
+      --purple: #7c3aed;
+      --purple-soft: #a78bfa;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --card: #111217;
+      --border: #1f2933;
+      --radius: 16px;
+      --shadow: 0 20px 40px rgba(124,58,237,.25);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color: var(--text); background: radial-gradient(1200px 600px at 10% -10%, rgba(124,58,237,.15), transparent),
+              radial-gradient(800px 400px at 90% 10%, rgba(124,58,237,.12), transparent), var(--bg);
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { max-width: 1120px; margin: 0 auto; padding: 24px; }
+    .hero {
+      display: grid; gap: 24px; padding: 64px 0 32px;
+      grid-template-columns: 1.2fr .8fr;
+    }
+    @media (max-width: 900px) { .hero { grid-template-columns: 1fr; padding: 48px 0 24px; } }
+    .badge {
+      display: inline-block; padding: 8px 12px; border: 1px solid var(--border);
+      border-radius: 999px; color: var(--purple-soft); background: rgba(124,58,237,.08);
+    }
+    h1 { font-size: clamp(28px, 4vw, 48px); line-height: 1.05; margin: 12px 0; }
+    .lead { color: var(--muted); font-size: 18px; max-width: 52ch; }
+    .cta {
+      display: inline-flex; align-items: center; gap: 10px; margin-top: 16px;
+      background: linear-gradient(135deg, #7c3aed, #5b21b6);
+      padding: 16px 22px; border-radius: 999px; box-shadow: var(--shadow);
+      border: 0; cursor: pointer; font-weight: 700;
+    }
+    .cta.secondary { background: transparent; border: 1px solid var(--border); box-shadow: none; color: var(--text); }
+    .card {
+      background: linear-gradient(180deg, rgba(124,58,237,.06), transparent 40%), var(--card);
+      border: 1px solid var(--border); border-radius: var(--radius); padding: 20px;
+    }
+    .mock {
+      aspect-ratio: 4/3; border-radius: var(--radius);
+      background: radial-gradient(400px 200px at 30% 20%, rgba(124,58,237,.35), transparent),
+                  linear-gradient(180deg, #0f1020, #0b0b0f);
+      border: 1px solid var(--border);
+      display: grid; place-items: center; color: var(--purple-soft); font-weight: 700;
+    }
+    .grid-3 { display: grid; gap: 16px; grid-template-columns: repeat(3, 1fr); }
+    @media (max-width: 900px) { .grid-3 { grid-template-columns: 1fr; } }
+    .section { padding: 48px 0; }
+    .kicker { color: var(--purple-soft); letter-spacing: .12em; text-transform: uppercase; font-size: 12px; }
+    .list { display: grid; gap: 10px; margin: 12px 0 0; }
+    .list li { list-style: none; color: var(--muted); }
+    .price {
+      font-size: 36px; font-weight: 800; color: #fff;
+    }
+    .guarantee {
+      border-left: 3px solid var(--purple); padding-left: 12px; color: var(--muted);
+    }
+    footer { border-top: 1px solid var(--border); color: var(--muted); }
+    .center { text-align: center; }
+  </style>
+</head>
+<body>
+
+  <header class="container hero">
+    <div>
+      <span class="badge">Lançamento</span>
+      <h1>{{Promessa principal forte do seu produto}}</h1>
+      <p class="lead">
+        {{Explique em 1 frase quem é a pessoa e o resultado prático que ela vai ter.}}
+      </p>
+      <div style="display:flex; gap:12px; flex-wrap:wrap;">
+        <a class="cta" href="{{LINK_DO_CHECKOUT}}" target="_blank">Quero começar agora</a>
+        <a class="cta secondary" href="#conteudo">Ver o que vou aprender</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="mock">Mockup do Produto / Vídeo</div>
+      <ul class="list">
+        <li>✔️ Acesso imediato</li>
+        <li>✔️ Atualizações inclusas</li>
+        <li>✔️ Suporte</li>
+      </ul>
+    </div>
+  </header>
+
+  <section id="conteudo" class="container section">
+    <p class="kicker">O que você vai aprender</p>
+    <h2>Conteúdo direto ao ponto</h2>
+    <div class="grid-3">
+      <div class="card">
+        <h3>Módulo 1</h3>
+        <p class="lead">Base sólida para começar sem travar.</p>
+      </div>
+      <div class="card">
+        <h3>Módulo 2</h3>
+        <p class="lead">Estratégias práticas para gerar resultado.</p>
+      </div>
+      <div class="card">
+        <h3>Módulo 3</h3>
+        <p class="lead">Otimização para escalar com consistência.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container section">
+    <p class="kicker">Pra quem é</p>
+    <div class="grid-3">
+      <div class="card">
+        <h3>É pra você se…</h3>
+        <ul class="list">
+          <li>✔️ Quer sair do zero</li>
+          <li>✔️ Precisa de método</li>
+          <li>✔️ Quer resultado prático</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Não é pra você se…</h3>
+        <ul class="list">
+          <li>✖️ Procura milagre</li>
+          <li>✖️ Não quer aplicar</li>
+          <li>✖️ Não tem tempo nenhum</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Resultados esperados</h3>
+        <p class="lead">Clareza, execução e progresso mensurável nas primeiras semanas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container section center">
+    <p class="kicker">Oferta</p>
+    <h2>Entre hoje</h2>
+    <p class="price">R$ {{PREÇO}}</p>
+    <p class="lead">ou 12x no cartão</p>
+    <a class="cta" href="{{LINK_DO_CHECKOUT}}" target="_blank">Acessar agora</a>
+    <p class="guarantee" style="margin-top:16px;">
+      Garantia de {{7 ou 15 ou 30}} dias. Se não curtir, devolvemos seu dinheiro.
+    </p>
+  </section>
+
+  <footer class="container section center">
+    <p>© {{Seu nome/marca}} — Todos os direitos reservados.</p>
+    <p><a href="#">Política de Privacidade</a> • <a href="#">Termos de Uso</a></p>
+  </footer>
+
+</body>
+</html>
