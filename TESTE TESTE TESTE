@@ -99,15 +99,15 @@
     <div class="grid-3">
       <div class="card">
         <h3>Módulo 1</h3>
-        <p class="lead">Base sólida para começar sem travar.</p>
+        <p class="lead">Você vai entender o que postar, por que postar e como montar um perfil que não parece amador.</p>
       </div>
       <div class="card">
         <h3>Módulo 2</h3>
-        <p class="lead">Estratégias práticas para gerar resultado.</p>
+        <p class="lead">Ideias de posts prontas para engajamento, autoridade e vendas, com exemplos que você só copia e cola.</p>
       </div>
       <div class="card">
         <h3>Módulo 3</h3>
-        <p class="lead">Otimização para escalar com consistência.</p>
+        <p class="lead">Como organizar seu calendário mensal, reaproveitar conteúdos e manter constância sem se sentir sobrecarregado.</p>
       </div>
     </div>
   </section>
@@ -118,17 +118,17 @@
       <div class="card">
         <h3>É pra você se…</h3>
         <ul class="list">
-          <li>✔️ Quer sair do zero</li>
-          <li>✔️ Precisa de método</li>
-          <li>✔️ Quer resultado prático</li>
+          <li>✔️ Quer sair do zero no Instagram</li>
+          <li>✔️ Precisa de método e direção</li>
+          <li>✔️ Quer resultado prático (engajamento e vendas)</li>
         </ul>
       </div>
       <div class="card">
         <h3>Não é pra você se…</h3>
         <ul class="list">
-          <li>✖️ Procura milagre</li>
-          <li>✖️ Não quer aplicar</li>
-          <li>✖️ Não tem tempo nenhum</li>
+          <li>✖️ Procura fórmula mágica sem postar</li>
+          <li>✖️ Não quer aplicar o que aprende</li>
+          <li>✖️ Não tem tempo nenhum para criar conteúdo</li>
         </ul>
       </div>
       <div class="card">
@@ -140,17 +140,17 @@
 
   <section class="container section center">
     <p class="kicker">Oferta</p>
-    <h2>Entre hoje</h2>
-    <p class="price">R$ {{PREÇO}}</p>
-    <p class="lead">ou 12x no cartão</p>
-    <a class="cta" href="{{LINK_DO_CHECKOUT}}" target="_blank">Acessar agora</a>
+    <h2>OFERTA ESPECIAL SÓ HOJE</h2>
+    <p class="price">R$ 7,90</p>
+    <p class="lead">ou 12x de 0,65 no cartão</p>
+    <a class="cta" href="https://www.youtube.com/watch?v=pool-SLuOMc" target="_blank">COMPRE AGORA</a>
     <p class="guarantee" style="margin-top:16px;">
       Garantia de {{7 ou 15 ou 30}} dias. Se não curtir, devolvemos seu dinheiro.
     </p>
   </section>
 
   <footer class="container section center">
-    <p>© {{Seu nome/marca}} — Todos os direitos reservados.</p>
+    <p>© Creator - Marketing Agency — Todos os direitos reservados.</p>
     <p><a href="#">Política de Privacidade</a> • <a href="#">Termos de Uso</a></p>
   </footer>
 
